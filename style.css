@@ -37,6 +37,16 @@
     padding: 10px;
     box-shadow: 0 0 10px 2px;
   }
+
+  .containerPoints {
+    width: 200px;
+    max-width: 80%;
+    height: 20vh;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
   
   .btn-grid {
     display: grid;
@@ -75,6 +85,13 @@
   }
   
   .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .results {
+
     display: flex;
     justify-content: center;
     align-items: center;
